@@ -1,0 +1,893 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ header{
+    max-width: 100%;
+    padding-bottom: 65px;
+}
+header .social{
+    width: 18%;
+    float: right;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 4px;
+    background-color: rgb(246, 246, 246);
+}
+header .social a{
+   padding: 7px;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 11px;
+   color: rgb(87, 87, 87);
+   font-family: "Roboto", sans-serif;
+   font-weight: 700;
+}
+header .social a i{
+    background-color: rgb(121, 11, 11);
+    border-radius: 100%;
+    color: #fff;
+    padding: 7px;
+}
+header .social span{
+    font-size: 10px;
+    margin-top: 4px;
+}
+header .menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 195px;
+    padding-top: 20px;
+    z-index: 999;
+}
+header .menu img{
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: -80px;
+    margin-top: -10px;
+}
+header nav ul{
+     display: flex;
+     justify-content: space-between;
+     width: 700px;
+     padding-left: 50px;  
+}
+header nav ul li {
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(87, 87, 87);
+    font-family: "Roboto", sans-serif;
+    font-weight: 790;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    padding-left: 2px;
+}
+header nav ul .billet a{
+   color: maroon;
+}
+header nav ul .billet i{
+    margin-right: 10px;
+}
+ 
+.carrousel-element #slider{
+    margin: auto;
+    position: relative;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    
+}
+#slider img{
+    filter : brightness(40%);
+}
+#slider #precedent, #suivant{
+    position: absolute;
+    text-align: center;
+    font-size: 17px;
+    width: 18px;
+    padding: 15px;
+    top: 295px;
+    cursor: pointer;
+    background-color: rgb(117, 36, 36);
+    color: #fff;
+    border-radius: 60% 60% 60% 60%;
+}
+#precedent{
+    left: 20px;
+}
+#suivant{
+    right: 20px;
+}
+
+.carrousel-element .elemnt-center{
+    position: absolute;
+    display: block;
+    margin-top: -400px;
+    margin-left: 250px;
+}
+.elemnt-center h3{
+    width: 280px;
+    border-radius:  20px 20px 20px 20px;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 3px;
+    background-color: rgba(154, 154, 154, 0.5);
+    font-family: "Roboto", sans-serif;
+}
+.elemnt-center h2{
+    width: 600px;
+    font-size: 55px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #fff;
+    margin-top: 40px;   
+}
+.elemnt-center span{
+    position: relative;
+    width: 300px;
+    color: rgba(154, 154, 154, 0.5);
+    top: 0px;  
+}
+.elemnt-center h4{
+    color: #fff;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+}
+.elemnt-center .button-header{
+    position: relative;
+    margin-top: 50px;
+    width: 600px;
+}
+.button-header .salon{
+    width: 200px;
+    border: 2px solid rgb(235, 235, 235);
+    color: #ffffff;
+    background-color: rgb(117, 36, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+    font-weight: 800;
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.button-header .billeterie{
+    width: 350px;
+    border: 2px solid rgb(235, 235, 235);
+    color: rgb(117, 36, 36);
+    background-color: rgb(236, 236, 236);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+    font-weight: 900;
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.billeterie i{
+    background-color: rgb(188, 170, 170);
+    color: rgb(117, 36, 36);
+    border-radius: 90px 90px 90px 90px;
+    padding: 12px;
+    position: relative;
+    margin-left: -12px;
+    margin-right: 10px;
+    width: 30px;
+    font-size: 12px;
+}
+
+/*----------------------------------SECTION1-----------------------------------------------*/
+section .section-1{
+    width: 100%;
+    padding-bottom: 65px;
+}
+.section-1 .container{
+    display: flex;
+    width: 85.8%;
+    justify-content: space-between;
+    position: relative;
+    left: 110px;
+
+}
+.section-1 .bloc-text{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    text-align: justify;
+    width: 410px;
+}
+.section-1 .bloc-text h3{
+    color: rgb(138, 41, 41);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+}
+.section-1 .bloc-text h2{
+    color: rgb(75, 74, 74);
+    font-family: "Quicksand", sans-serif;
+    font-size: 35px;
+    padding-bottom: 30px;
+    width: 500px;
+    word-spacing: 4px;
+}
+.section-1 .bloc-text .p-1{
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 25px;
+    color: #292828;
+    font-weight: 500;
+    line-height: 23px;
+    font-size: 18px;
+}
+.section-1 .bloc-text .p-2{
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
+    color: #333333;
+    font-size: 13px;
+    line-height: 24px;
+}
+.section-1 .container .button-bloc-text a{
+    width: 350px;
+    border: 2px solid rgb(117, 36, 36);;
+    color: rgb(242, 242, 242);
+    background-color:  rgb(117, 36, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+    font-weight: 900;
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+/**********************************SECTION-2********************************/
+#section-2{
+    background-image:   url('./image/grape.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 30vh;
+    width: 79%;
+    top: 100px;
+    bottom: 500px;
+    padding: 45px;
+    margin: auto; 
+    
+   }
+   #section-2::before{
+       content: "";
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       background-color: rgba(0,0,0,0.7);
+   }
+   #section-2 .container{
+       display: flex;
+       position: relative;
+       top: 0px;
+    
+       
+   }
+   #section-2 .container .card-1, .card-2,  .card-3,  .card-4{
+     width: 550px;
+     line-height: 25px;
+     padding: 10px;
+     height: 100px;
+   }
+   
+   #section-2 .container h2{
+     font-family: "Roboto", sans-serif;
+     font-size: 60px;
+     color: rgb(121, 11, 11)
+   }
+   #section-2 .container h5{
+       font-family: "Roboto", sans-serif;
+       color: rgb(255, 255, 255);
+       padding-bottom: 5px; 
+       padding-top: 5px;
+   }
+   #section-2 .container p{
+       font-family: "Roboto", sans-serif;
+       color: rgb(255, 255, 255);
+       padding-top: 15px;
+   }
+   #section-2 .container i{
+       position: relative;
+       color:rgb(255, 255, 255);
+       font-size: 25px;
+       padding-right: 5px;
+   }
+   #section-2 .container .vertical-line{
+      border-left: 2px  dotted #b6b6b6;
+      opacity: 0.4;
+      height: 210px;
+      position:  relative;
+      top: 5px
+}
+
+/*************************************SECTION-3****************************/
+
+#section-3{
+    width: 100%;
+    margin-top: 300px;
+    
+}
+#section-3 h2{
+    margin-left: 110px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(153, 9, 9);
+    font-size: 14px;
+    font-weight: 500;
+}
+#section-3 h3{
+    color: rgb(56, 56, 56);
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+    width: 500px;
+    word-spacing: 2px; 
+    margin-left: 110px; 
+}
+#section-3 .container-3{
+    display: flex;
+    width: 85.8%;
+    justify-content: space-between;
+    position: relative;
+    left: 110px;
+}
+#section-3 .bloc-left{
+    position: relative;
+    top: 10px;
+    width: 430px;
+    margin-left: -50px;
+}
+
+#section-3 .bloc-left .p-center-1{
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 25px;
+    color: #000000;
+    font-weight: 700;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 22px;
+    width: 450px;
+}
+#section-3 .bloc-left .p-center-1 .lettrine{
+    width: 400px;
+    font-size : 60px;
+    color: rgb(86, 17, 17);
+    font-family: "Roboto", sans-serif;;
+}
+#section-3 .bloc-left .p-center-2{
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
+    color: #333333;
+    font-size: 13px;
+    line-height: 24px;
+}
+#section-3 .button-a .a-1 a{
+    width: 350px;
+    border: 2px solid rgb(117, 36, 36);
+    color: rgb(83, 5, 5);
+    background-color:  rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px;
+    font-weight: 900;
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+#section-3 .button-a .a-2{
+    padding-top: 20px;
+}
+#section-3 .button-a .a-2 a{
+    width: 350px;
+    border: 2px solid rgb(123, 14, 14);
+    color: rgb(255, 255, 255);
+    background-color: rgb(123, 14, 14);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px;
+    font-weight: 900;
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+#section-3 .button-a .a-2 i{
+    position: relative;
+    width: 28px;
+    font-size: 15px;
+    padding: 12px;
+    color: white;
+    border-radius: 100px 100px 100px 100px;
+    background-color: rgb(105, 60, 60);
+    margin-left: -16px;
+    margin-top: 15px;
+}
+
+/***********************************************BLOG**************************************/
+#blog{
+    width: 100%;
+    margin-top: 100px;
+  
+}
+#blog h2{
+    margin-left: 110px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(153, 9, 9);
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#blog h3{
+    color: rgb(56, 56, 56);
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+    width: 500px;
+    word-spacing: 2px; 
+    margin-left: 110px; 
+}
+#blog .container-blog{
+    width: 85.8%;
+    display: flex;
+    margin-left: 100px;
+    
+}
+#blog .container-blog .card-1-blog, .card-2-blog, .card-3-blog, .card-4-blog{
+    width: 600px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+}
+#blog .container-blog a{
+    color: rgb(106, 22, 22);
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#blog .button-actualite{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#blog .button-actualite a{
+    text-align: center;
+    width: 200px;
+    border: 2px solid rgb(117, 36, 36);
+    color: rgb(255, 255, 255);
+    background-color:  rgb(117, 36, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 900;
+    border-radius:  35px 35px 35px 35px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+/***********************************************inscription***************************/
+#inscription{
+    width: 100%;
+}
+.insc{
+    width: 85.8%;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    background-image:   url('./image/raisin.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 55vh;
+}
+.insc::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.804);
+}
+.insc h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.5;
+}
+.insc h3{
+ font-family: 'Quicksand', sans-serif;
+ font-size: 40px;
+ text-transform: capitalize;
+ letter-spacing: 3px;
+ color: #fff
+}
+.insc .trait{
+    color: rgb(138, 64, 64);
+    padding: 5px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+.insc .container-insc{
+    position: relative;
+    top: 40px;
+    margin-left: 40%;
+ 
+    
+}
+.insc .container-insc .form{
+    width: 620px;
+    margin-top: 30px;
+    margin-left: -100px;
+}
+.insc .container-insc .form h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+.insc .container-insc .form .input-1{
+    padding: 15px;
+    font-size: 15px;
+    border-radius:  35px 0px 0px 35px;
+    width: 230px;
+}
+.insc .container-insc .form button{  
+    padding: 17px;
+    width: 120px;
+    border-radius:  35px 0px 0px 35px;
+    text-align: center;
+    border: 2px solid rgb(117, 36, 36);
+    color: rgb(255, 255, 255);
+    background-color:  rgb(117, 36, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius:  0px 35px 35px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 10px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.insc .container-insc .form .check{
+    width: 380px;
+    margin-top: 10px;
+    color: #fff;
+    
+}
+.insc .container-insc .form .check .input-2{
+    margin-right: 15px;
+    opacity: 0.6;   
+}
+.insc .container-insc .form .check span{
+    text-align: justify;
+    font-size: 13px;
+    opacity: 0.8;
+    font-family: 'Quicksand', sans-serif;
+}
+.insc .container-insc .form .check span a{
+    color: #fff;
+    font-weight: 900;
+    opacity: 0.9;
+}
+
+
+/****************************************drinkWine*********************************/
+#drinkWine{
+    width: 100%;
+    padding-bottom: 30px;
+}
+#drinkWine .container-drink{
+    width: 85.8%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+}
+#drinkWine .container-drink .image-boire{
+    margin-top: 40px;
+}
+
+#drinkWine .container-drink .bloc-table h2{
+    color: rgb(138, 41, 41);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+}
+#drinkWine .container-drink .bloc-table{
+        position: relative;
+        text-align: center;
+        top: 50px;
+        text-align: justify;
+        width: 410px;
+}
+
+#drinkWine .container-drink .bloc-table h3{
+    color: rgb(75, 74, 74);
+    font-family: "Quicksand", sans-serif;
+    font-size: 35px;
+    padding-bottom: 30px;
+    width: 500px;
+    word-spacing: 4px;
+}
+#drinkWine .container-drink .bloc-table p{
+    font-family: "Quicksand", sans-serif;
+    padding-bottom: 25px;
+    color: #0e0e0e;
+   
+    font-weight: 700;
+    font-size: 18px;
+}
+#drinkWine .container-drink .bloc-table table{
+    border-top: 2px dotted rgb(204, 204, 204);
+    border-bottom: 2px dotted rgb(204, 204, 204);
+    position: relative;
+    top: 30px;
+    left: 5px;
+    width: 600px
+}
+#drinkWine .container-drink .bloc-table td{
+    width: 100%;
+    border-bottom: 2px dotted rgb(204, 204, 204);
+}
+
+#drinkWine .container-drink .bloc-table table .td-1{
+    border-right: 2px dotted rgb(204, 204, 204);
+    width: 430px;
+    padding: 15px;
+}
+#drinkWine .container-drink .bloc-table table .td-1 .span-1{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrats', sans-serif;
+    color: rgb(23, 23, 36);
+   
+}
+#drinkWine .container-drink .bloc-table table .td-1 .span-2{
+    
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 550;
+    color: rgb(26, 26, 26);
+    position: relative;
+    top: 3px;
+}
+
+#drinkWine .container-drink .bloc-table table .td-2{
+    float: right;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(86, 21, 21);
+    border-bottom: 2px dotted rgb(204, 204, 204);
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+
+}
+
+#drinkWine .button-vin{
+    position: relative;
+    width: 295px;
+    margin: auto;
+    padding-top: 10px;
+    left: 80px;
+    top: 20px
+}
+#drinkWine  .button-vin a{
+    border: 2px solid rgb(235, 235, 235);
+    color: rgb(255, 255, 255);
+    background-color: rgb(117, 36, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px;
+    font-weight: 900;
+    border-radius: 80px 80px 80px 80px;
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    
+   
+}
+#drinkWine  i{
+    background-color: rgb(188, 170, 170);
+    color: rgb(117, 36, 36);
+    border-radius: 90px 90px 90px 90px;
+    padding: 12px;
+    position: relative;
+    margin-left: -12px;
+    margin-right: 10px;
+    width: 30px;
+    font-size: 16px;
+}
+
+
+/******************************************MAP6INFO**************************/
+#map-info{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#map-info .card-container{
+    width: 85.8%;
+    margin-left: 110px;
+    background-image:   url('./image/map.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 70vh;
+    margin-bottom: 100px;
+
+}
+#map-info .card-container .card-info{
+    width: 350px;
+    height: 60vh;
+    float: right;
+    background-color: #111111;
+    margin-bottom: 50px;
+    color: #fff;
+    padding: 40px;
+    margin-top: 50px;
+}
+#map-info .card-container .card-info h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  letter-spacing: 3px;
+}
+#map-info .card-container .card-info h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 34px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+#map-info .card-container .card-info .trait-2{
+    color: rgb(138, 64, 64);
+    padding: 5px;
+    font-size: 25px;
+    margin-top: 7px;
+}
+#map-info .card-container .card-info .charge-card{
+    position: relative;
+    top: 30px;
+    width: 300px;
+}
+#map-info .card-container .card-info .charge-card h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    
+}
+#map-info .card-container .card-info .charge-card h5{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;  
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+#map-info .card-container .card-info .charge-card i{
+    font-size: 18px;
+    color: rgb(100, 30, 30);
+}
+#map-info .card-container .card-info .charge-card p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;  
+    opacity: 0.6;
+}
+#map-info .card-container .card-info .charge-card p span{
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+#map-info .card-container .card-info .charge-card .a-3{
+    width: 200px;
+    margin-top: 30px;
+}
+#map-info .card-container .card-info .charge-card .a-3 a{
+    border: 2px solid rgb(103, 33, 33);
+    color: rgb(255, 255, 255);
+    background-color:   rgb(103, 33, 33);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px;
+    font-weight: 900;
+    border-radius: 20px 20px 20px 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+
+/*************************************FOOTER**********************************/
+footer{
+    width: 100%;
+    background-color: rgb(147, 27, 27);
+    display: flex;
+}
+footer ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 95px;
+}
+footer li{
+   list-style-type: none;
+}
+footer li a{
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 11px;
+    
+   color: #fff;
+   padding: 8px;
+ }
+ footer ul span{
+    color: #fff;
+    font-size: 12px;
+    margin-top: 3px;
+ }
+
+footer p{
+ color: #fff;
+ font-family: 'Quicksand', sans-serif;
+ font-size: 15px;
+ opacity: 0.5;
+ margin-left: 275px;
+ margin-top: 10px;
+}
+
+
+
+
+
+
+ 
+
+

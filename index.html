@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="slider.js"></script>
+  <title>MY - ALTERNANCE -HUMANBOOSTER</title>
+</head>
+<body>
+  <main>
+    <header>
+
+      <!----------------------ACCER DIRECT AU BLOG, PAGE CONTACT ET RESEAUX SOCIAUX ---------------->
+      <div class="social">
+        <a  href="blog">LE BLOG</a>
+        <span>|</span>
+        <a href="contact">CONTACT</a>
+        <a  href="#"><i style="margin-left: 50px;" class="fa">&#xf230;</i></a>
+        <a href="#"><i class="fa">&#xf16d;</i></a>
+      </div>
+
+      <!---------------------------MENU DE NAVIGATION------------------------------>
+      <div class ='menu'> 
+        <img src="./image/logo-png.png" alt="logo">
+        <nav>
+          <ul>
+            <li><a href="#">le salon</a></li>
+            <li><a href="#">Liste des exposants</a></li>
+            <li><a href="#">Animations</a></li>
+            <li><a href="#">Exposer</a></li>
+            <li class="billet"><a href="#"><i class="fa fa-ticket" aria-hidden="true"></i> BILLETTERIE</a></li>  
+          </ul>
+        </nav>
+      </div>
+
+      <!----------------SLIDER D'IMAGE AVEC DU JAVASCRIPT ----------------->
+      <div class="carrousel-element">
+        <div id ='slider'>
+          <img src="./image/slider_1.jpg" alt="slider" width="1300" height="540" id="slide"> 
+          <div onclick="ChangeSlider(-1);" id="precedent"><i  class="fa">&#xf104;</i></div>
+          <div onclick="ChangeSlider(1);" id="suivant"><i class="fa"> &#xf105;</i></div>
+        </div>
+
+        <!------------------DATE ET LIEU DU SALON-->
+        <div class="elemnt-center">
+          <h3>DU 21 <i class="fa"> &#xf105;</i> AU 25 FEVIER 2024</h3>
+          <h2>Salon du vin à Cournon-d'Auvergne</h2>
+          <span>--------------------------------------------------------------</span>
+          <h4>
+            <i class="fa fa-map-marker"></i>
+            GRANDE HALLE D'AUVERGNE, HALLEGRANDE
+          </h4>
+          <div class="button-header">
+                 <a class="salon" href="#">Découvrire le salon</a>
+                 <a class="billeterie" href="#"><i class="fa fa-ticket" aria-hidden="true"></i>ÀCCÉDER LA  BILLETTERIE</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+
+    <!----------------DECOUVERT GENERAL DU SALON---------------->
+    <section class="section-1">
+     <div class="container">
+      <div class="image-1">
+        <img src="./image/glass.jpg" alt="glass" width="400" height="420">
+      </div>
+      <div class="bloc-text">
+        <h3>LE RASSEMBLEMENT AUVERGNAT</h3>
+        <h2>pour les fins palais</h2>
+        <p class="p-1">Alors que les prochains millésimes se
+          créent dans le secret des caves, les
+          vignerons en profitent pour venir dans
+          le Massif Central à la rencontre des
+          amateurs d'escapades gourmandes.
+        </p>
+        <p class="p-2">
+          Depuis plus d'un quart de siècle, le salon du vin de
+          Clermont-Ferrand représente le rendez-vous de
+          début d'année pour les fins palais. Chaque année,
+          ce sont 35 000 visiteurs qui participent à cet
+          événement d'envergure nationale.
+        </p>
+        <div class="button-bloc-text">
+          <a href="#">Découvrire le salon</a>
+        </div>
+      </div>
+      <div class="image-1">
+        <img src="./image/sparkling-wine.jpg" alt="sparkling" width="400" height="420">
+      </div>
+     </div>
+    </section>
+
+
+
+    <!----------------------------------PETITES INFORMATION CONCERNANT L'AFLUENCES DU SALON ------------------------> 
+    <section id="section-2">
+      <div class="container">
+        <div class="card-1">
+          <h2><i class="fa fa-500px"></i> 35K</h2>
+          <h5>VISITEURS EPICURIENS</h5>
+          <p>Chaque annee, 35 000 visiteurs
+            affluent dans les larges allees de la
+            Grande Halle d'Auvergne. Ce rendez-
+            vous attire un public désireux de
+            partager des produits authentiques.
+          </p>
+        </div>
+        <span class="vertical-line"></span>
+        <div class="card-2">
+          <h2><i class="fa fa-dribbble"></i> 300</h2>
+          <h5>EXPOSANTS DE FRANCE & NAVARRE</h5>
+          <p>En provenance des terroirs
+            emblématiques de France et de
+            Navarre, plus de 300 exposants, dont
+            quelques 250 viticulteurs, participent à
+            cet événement d'envergure nationale.
+          </p>
+        </div>
+        <span class="vertical-line"></span>
+        <div class="card-3">
+          <h2><i class="fa fa-reddit"></i> 3</h2>
+          <h5>PÔLES A PARCOURIR</h5>
+          <p>Les meilleurs producteurs de nos
+            terroirs sont regroupes selon leurs
+            « spécialités », qui toutes contribuent à
+            la réputation de savoir vivre de notre
+            pays.</p>
+        </div>
+        <span class="vertical-line"></span>
+        <div class="card-4">
+          <h2><i class="fa fa-snowflake-o"></i><span style="font-size: 60px;">51</span><span style="font-size: 30px; margin-left: -8px; top: -26px; position: relative;">ème</span></h2>
+          <h5>SALON DUÉDITION</h5>
+          <p>Alors, que vous soyez vin ou
+            gastronomie, peu importe ! Le salon
+            du vin de Clermont-Ferrand vous
+            permet d'éveiller tous vos sens et ce,
+            en toute convivialité !
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!------------------------INFORMATION CONCERNANT POUS ASSISTER AU SALON---------------------------------->
+    <section id ='section-3'>
+      <h2>UN TOUR DE FRANCE</h2>
+      <h3>au coeur des vignobles</h3>
+      <div class="container-3">
+        <div class="img-1">
+          <img src="./image/vieux.jpg" alt="glass" width="400" height="420">
+        </div>
+        <div class="bloc-left">
+          <p class="p-center-1"><span class="lettrine">R</span>endez-vous incontournable en Auvergne,
+            le salon du vin de Clermont-Ferrand vous
+            invite à découvrir les produits des régions
+            viticoles de France et à profiter des
+            conseils des producteurs.
+          </p>
+          <p class="p-center-2">
+            Le salon met aussi a l'honneur les produits gastronomiques
+            avec une soixantaine d'exposants proposant des produits
+            de bouche. Charcuterie, fromage et autres spécialités
+            locales seront à associer avec vos vins favoris.
+          </p>
+          <div class="button-a">
+            <div class="a-1"><a  href="#">LISTE DES EXPOSANTS</a></div>
+            <div class="a-2">
+              <a class="a-lien" href="#">
+                <i class="fa fa-bank"></i>
+                RÉSERVER VOTRE STAND
+              </a>
+              </div>
+          </div>
+        </div>
+        <div class="img-2">
+          <img src="./image/white-wine.jpg" alt="sparkling" width="300" height="420">
+        </div>
+       </div>
+    </section>
+
+
+   <!----------------------------------BLOG POUR DISCUTER ET APPORTER SA CONTRIBUTION DES DIFFERENTS ALCOOL----------------------------------> 
+    <section id="blog">
+      <h2>le blog</h2>
+      <h3>une balade gourmande ...</h3>
+      <div class="container-blog">
+        <div class="card-1-blog">
+         <img src="./image/blog-1.jpg" alt="blog-1" width="310" height="180">
+         <p>
+          Comment conserver son vin après
+          ouverture ?
+         </p>
+         <a class="lien-savoir" href="#">en savoir plus</a>
+        </div>
+        <div class="card-2-blog">
+          <img src="./image/blog-2.jpg" alt="blog-2" width="310" height="180">
+          <p>
+            Les salons du vin, des évènements
+            vins et gastronomie et une équipe
+            pour les organiser
+          </p>
+          <a class="lien-savoir" href="#">en savoir plus</a>
+        </div>
+        <div class="card-3-blog">
+          <img src="./image/blog-3.jpg" alt="blog-3" width="310" height="180">
+          <p>2018, une année placée sous le
+            signe du renouveau
+          </p>
+          <a class="lien-savoir" href="#">en savoir plus</a>
+        </div>
+        <div class="card-4-blog">
+          <img src="./image//blog-4.jpg" alt="blog-4" width="310" height="180">
+           <p>À la découverte des confréries des
+            vins
+          </p>
+          <a class="lien-savoir" href="#">en savoir plus</a>
+        </div>
+      </div>
+      <div class="button-actualite">
+        <a href="#">TOUTES NOS ACTUALITES</a>
+      </div>
+    </section>
+
+    
+    <!----------------------------------EMAIL POUR RECEVOIR DES NEWSLETTER------------------------> 
+    <section id="inscription">
+      <div class="insc">
+        <div class="container-insc">
+          <h2>inscription à</h2>
+          <h3>Newsletter</h3>
+          <span class="trait">~~~~~~~~~~</span>
+          <div class="form">
+            <h4>votre adresse e-mail</h4>
+            <input class="input-1" type="email" placeholder="Ex : lorem.ipsum@dolorsitamet.fr" >
+            <button type="submit">S'inscrire</button>
+            <div class="check">
+              <input class="input-2" type="checkbox">
+              <span for="">Avec votre consentement, votre e-mail est utilisé par la société
+                des vins de France pour recevoir notre newsletter.
+                Pour en savoir plus, consultez notre  <a href="#">politique de confidentialité.</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  <!----------------------------------TARIF POUR ASSISTER AU SALON DU VIN------------------------> 
+    <section id="drinkWine">
+      <div class="container-drink">
+        <div class="image-boire">
+          <img src="./image/boire-vin-rouge.jpg" alt="glass" width="500" height="500">
+        </div>
+        <div class="bloc-table">
+          <h2>INFOS PRATIQUES</h2>
+          <h3>Tarifs du salon</h3>
+          <p>Plus grand rendez-vous de vins
+            et de gastronomie en Auvergne,
+            le salon du vin de Clermont-
+            Ferrand est de retour pour sa
+            5lème édition du 21 au 25 février
+            2024
+          </p>
+
+          <!--------------- TABLEAU ACHAT BILLET avec quelques styles concernant les traits pointillés ---------->
+          <table>
+            <tr>
+              <td class="td-1">
+                <span class="span-1">Billet adulte plein tarif</span><br>
+                <span class="span-2">Entrée valable pour 1 personne adulte. Toute sortie est définitive.</span>
+              </td>
+              <td style="margin-top: 49px;" class="td-2"> <span style="position: relative; top: -15px;">6€</style=></td>
+            </tr>
+            <tr>
+              <td class="td-1">
+                <span class="span-1">Billet jeune -18 ans</span><br>
+                <span class="span-2">Moins de 18 ans accompagné d'un adulte muni d'un billet ou
+                  d'une invitation. Toute sortie est définitive.
+                </span>
+              </td>
+              <td style="margin-top: 65px;" class="td-2"> <span style="position: relative; top: -15px;">GRATUIT</span></td>
+            </tr>
+            
+            <tr>
+              <td style="border-bottom: none;" class="td-1">
+                <span class="span-1">Invitation avec code promo</span><br>
+                <span  class="span-2">Entrée gratuite valable pour 1 personne. Toute sortie est définitive.</span>
+              </td>
+              <td style="border:none;" class="td-2"> <span style="position: relative; top: 10px;">GRATUIT</span></td>
+            </tr>
+          </table>
+
+        </div>
+        <div class="family-image">
+          <img src="./image/douglas-lopez.jpg" alt="douglass" width="250" height="200">
+        </div>
+      </div>
+      <div class="button-vin">
+        <a href="#"><i class="fa fa-ticket" aria-hidden="true"></i> ACCÉDER À LA BILLETTERIE</a>
+      </div>
+    </section>
+
+
+    
+    <!---------------------------CARTE DE L'ADRESS DE L'AUVERGNE-------------------------------> 
+    <section id ='map-info'>
+      <div class="card-container">
+        <div class="card-info">
+          <h2>INFOS PRATIQUES</h2>
+          <h3>Comment venir ?</h3>
+          <span class="trait-2">~~~~~~~~~~</span>
+          <div class="charge-card">
+           <h4><i  class="fa">&#xf041;</i> Grand Halle,<br> <span style="margin-left: 23px;">Cournon d'Auvergne</span></h4>
+            <h5><i  class="fa">&#xf095;</i> 04 73 17 19 22</h5>
+            <p>
+              Vendredi 2 fevrier : <span>de 14h à 20h30</span><br>
+              Samedi 3 février : <span>de 10h à 20h30</span><br>
+              Dimanche 4 fevrier :<span>de 10h à 19h30</span><br>
+              Lundi 5 fevrier : <span>de 10h à 16h</span>
+            </p>
+            <div class="button-salon">
+              <div class="a-3"><a  href="#">PLAN DU SALON</a></div>
+            </div>
+          </div>
+          
+         
+        </div>
+      </div>
+    </section>
+
+
+    <!----------------------------------BAS DE PAGE AVEC MENU------------------------> 
+    <footer>
+      <ul>
+        <li><a href="">MENTIONS LEGALES </a></li>
+        <span>|</span>
+        <li><a href="">POLITIQUE DE CONFIDENTIALITE</a></li>
+        <span>|</span>
+        <li><a href="">PARAMETRE DES COOKIES</a></li>
+        <span>|</span>
+        <li><a href="">FAQ</a></li>
+        <span>|</span>
+        <li><a href="">ESPACE TÉLÉCHARGEMENT</a></li>
+      </ul>
+      <p>Site web réalisé par PADANE MOUHAMAD developpeur web.</p>
+    </footer>
+  </main>
+</body>
+</html>
